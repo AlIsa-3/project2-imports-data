@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=80.4.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imports-data-analysis"
+description = "Data Analysis of Imports Data"
+requires-python = ">=3.13.2"
+dependencies = ["pandas","matplotlib","ipykernel"]
+readme = "README.md"
+
+dynamic = ["version"]
